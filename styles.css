@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    display: inline;
+}
+.hed {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+#subhed {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 40px;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family:"Arial Black";
+    color: red;
+}
+
+ul li {
+    flex: 0 0 calc(50% - 10 px);
+    margin: 10px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border: none;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-family: "Courier New";
+    font-size: 17px;
+    width: 900px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.left {
+    float: left;
+    height: 100%;
+    width: 49.6%;
+    object-fit: cover;
+    padding-bottom: 15px;
+}
+
+.right {
+    float: right;
+    height:100%;
+    width:49.6%;
+    object-fit: cover;
+    padding-bottom: 15px;
+    
+}
+
+.center {
+    display:block;
+    margin:auto;
+    width: 30%;
+    padding-bottom: 15px;    
+}
+
+.grid {
+    width: 30%;
+    height: 30%;
+}
+
+.pano {
+    padding-top: 1px;
+    max-width: 100%;
+    height: auto;
+}
